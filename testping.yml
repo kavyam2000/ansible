@@ -1,0 +1,7 @@
+#this is test
+
+- hosts:  mysql
+  tasks:
+    - name: ping all the servers
+      action: ping
+
