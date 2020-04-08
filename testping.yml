@@ -1,6 +1,5 @@
-#this is test
 
-- hosts:  mysql
+- hosts: remote1  
   tasks:
     - name: ping all the servers
       action: ping
